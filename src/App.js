@@ -13,7 +13,7 @@ function App() {
   const getData=async()=>{
     setTable(true)
     const response= await axios.get(`https://hack2skill-backend.herokuapp.com/getData`)
-    console.log(response.data.data)
+    // console.log(response.data.data)
     setData(response.data.data)
   }
   
